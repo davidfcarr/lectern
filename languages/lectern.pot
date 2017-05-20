@@ -1,0 +1,1362 @@
+# Copyright (C) 2015 Automattic
+# This file is distributed under the GNU General Public License v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Lectern 1.0\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tags/_s\n"
+"POT-Creation-Date: 2015-08-30 20:00-0500\n"
+"PO-Revision-Date: 2015-08-30 20:00-0500\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 1.7.6\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../extratoasty/404.php:17
+msgid "This is somewhat embarrassing, isn&rsquo;t it?"
+msgstr ""
+
+#: ../extratoasty/404.php:21
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: ../extratoasty/archive.php:29
+#, php-format
+msgid "Daily Archives: %s"
+msgstr ""
+
+#: ../extratoasty/archive.php:31 ../zeedynamic/archive.php:10
+#, php-format
+msgid "Monthly Archives: %s"
+msgstr ""
+
+#: ../extratoasty/archive.php:33
+#, php-format
+msgid "Yearly Archives: %s"
+msgstr ""
+
+#: ../extratoasty/archive.php:35 ../zeedynamic/archive.php:12
+msgid "Archives"
+msgstr ""
+
+#: ../extratoasty/author.php:32 ../zeedynamic/author.php:12
+#, php-format
+msgid "Author Archives: %s"
+msgstr ""
+
+#: ../extratoasty/author.php:63 ../extratoasty/content.php:62
+#, php-format
+msgid "About %s"
+msgstr ""
+
+#: ../extratoasty/category.php:21 ../zeedynamic/category.php:8
+#, php-format
+msgid "Category Archives: %s"
+msgstr ""
+
+#: ../extratoasty/comments.php:42
+msgid "Comment navigation"
+msgstr ""
+
+#: ../extratoasty/comments.php:43
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: ../extratoasty/comments.php:44
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: ../extratoasty/comments.php:53 ../gavel/comments.php:44
+msgid "Comments are closed."
+msgstr ""
+
+#: ../extratoasty/content-aside.php:15 ../extratoasty/content-image.php:13
+#: ../extratoasty/content-link.php:14 ../extratoasty/content-quote.php:13
+#: ../extratoasty/content-status.php:31 ../extratoasty/content.php:44
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: ../extratoasty/content-aside.php:20 ../extratoasty/content-link.php:18
+#: ../extratoasty/content-quote.php:17 ../extratoasty/content-status.php:15
+#, php-format
+msgid "Permalink to %s"
+msgstr ""
+
+#: ../extratoasty/content-aside.php:23 ../extratoasty/content-image.php:23
+#: ../extratoasty/content-link.php:21 ../extratoasty/content-quote.php:20
+#: ../extratoasty/content-status.php:37 ../extratoasty/content.php:33
+msgid "Leave a reply"
+msgstr ""
+
+#: ../extratoasty/content-aside.php:23 ../extratoasty/content-image.php:23
+#: ../extratoasty/content-link.php:21 ../extratoasty/content-quote.php:20
+#: ../extratoasty/content-status.php:37 ../extratoasty/content.php:33
+msgid "1 Reply"
+msgstr ""
+
+#: ../extratoasty/content-aside.php:23 ../extratoasty/content-image.php:23
+#: ../extratoasty/content-link.php:21 ../extratoasty/content-quote.php:20
+#: ../extratoasty/content-status.php:37 ../extratoasty/content.php:33
+msgid "% Replies"
+msgstr ""
+
+# @ _s
+#: ../extratoasty/content-aside.php:26 ../extratoasty/content-image.php:26
+#: ../extratoasty/content-link.php:24 ../extratoasty/content-page.php:24
+#: ../extratoasty/content-quote.php:23 ../extratoasty/content-status.php:40
+#: ../extratoasty/content.php:51 ../extratoasty/functions.php:322
+#: ../extratoasty/image.php:37 ../gavel/library/custom-post-type.php:36
+#: ../twentytwelve/functions.php:343
+msgid "Edit"
+msgstr ""
+
+#: ../extratoasty/content-link.php:12
+msgid "Link"
+msgstr ""
+
+#: ../extratoasty/content-none.php:13 ../extratoasty/index.php:49
+#: ../extratoasty/search.php:34
+msgid "Nothing Found"
+msgstr ""
+
+#: ../extratoasty/content-none.php:17 ../extratoasty/index.php:53
+msgid ""
+"Apologies, but no results were found. Perhaps searching will help find a "
+"related post."
+msgstr ""
+
+# @ _s
+#: ../extratoasty/content-page.php:21 ../extratoasty/content.php:45
+#: ../extratoasty/image.php:102 ../gavel/page-custom.php:57
+#: ../gavel/page.php:41 ../gavel/post-formats/format-aside.php:38
+#: ../gavel/post-formats/format-audio.php:38
+#: ../gavel/post-formats/format-chat.php:38
+#: ../gavel/post-formats/format-gallery.php:38
+#: ../gavel/post-formats/format-image.php:38
+#: ../gavel/post-formats/format-link.php:38
+#: ../gavel/post-formats/format-quote.php:38
+#: ../gavel/post-formats/format-status.php:38
+#: ../gavel/post-formats/format-video.php:38
+#: ../gavel/post-formats/format.php:54 ../gavel/single-custom_type.php:57
+msgid "Pages:"
+msgstr ""
+
+#: ../extratoasty/content.php:16
+msgid "Featured post"
+msgstr ""
+
+#: ../extratoasty/content.php:66
+#, php-format
+msgid "View all posts by %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+# @ _s
+#: ../extratoasty/footer.php:17 ../lectern - Copy/footer.php:16
+#: ../lectern/footer.php:16
+msgid "http://wordpress.org/"
+msgstr ""
+
+# @ _s
+#: ../extratoasty/footer.php:17
+#, php-format
+msgid "Proudly powered by %s"
+msgstr ""
+
+# @ _s
+#: ../extratoasty/functions.php:43 ../twentytwelve/functions.php:64
+msgid "Primary Menu"
+msgstr ""
+
+# @ _s
+#: ../extratoasty/functions.php:192 ../gavel/library/bones.php:78
+#: ../twentytwelve/functions.php:213 ../zeedynamic/functions.php:202
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: ../extratoasty/functions.php:221 ../twentytwelve/functions.php:242
+#: ../zeedynamic/functions.php:135
+msgid "Main Sidebar"
+msgstr ""
+
+#: ../extratoasty/functions.php:223 ../twentytwelve/functions.php:244
+msgid ""
+"Appears on posts and pages except the optional Front Page template, which "
+"has its own widgets"
+msgstr ""
+
+#: ../extratoasty/functions.php:231 ../twentytwelve/functions.php:252
+msgid "First Front Page Widget Area"
+msgstr ""
+
+#: ../extratoasty/functions.php:233 ../extratoasty/functions.php:243
+#: ../twentytwelve/functions.php:254 ../twentytwelve/functions.php:264
+msgid ""
+"Appears when using the optional Front Page template with a page set as "
+"Static Front Page"
+msgstr ""
+
+#: ../extratoasty/functions.php:241 ../twentytwelve/functions.php:262
+msgid "Second Front Page Widget Area"
+msgstr ""
+
+#: ../extratoasty/functions.php:263 ../extratoasty/single.php:20
+#: ../twentytwelve/functions.php:284
+msgid "Post navigation"
+msgstr ""
+
+#: ../extratoasty/functions.php:264 ../twentytwelve/functions.php:285
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr ""
+
+#: ../extratoasty/functions.php:265 ../twentytwelve/functions.php:286
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: ../extratoasty/functions.php:290 ../twentytwelve/functions.php:311
+#: ../zeedynamic/functions.php:254
+msgid "Pingback:"
+msgstr ""
+
+#: ../extratoasty/functions.php:290 ../gavel/functions.php:215
+#: ../twentytwelve/functions.php:311 ../zeedynamic/functions.php:255
+#: ../zeedynamic/functions.php:271
+msgid "(Edit)"
+msgstr ""
+
+#: ../extratoasty/functions.php:305 ../twentytwelve/functions.php:326
+msgid "Post author"
+msgstr ""
+
+#: ../extratoasty/functions.php:311 ../twentytwelve/functions.php:332
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: ../extratoasty/functions.php:317 ../gavel/functions.php:221
+#: ../twentytwelve/functions.php:338 ../zeedynamic/functions.php:281
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: ../extratoasty/functions.php:326 ../gavel/comments.php:27
+#: ../twentytwelve/functions.php:347
+msgid "Reply"
+msgstr ""
+
+# @ _s
+#: ../extratoasty/functions.php:347 ../extratoasty/functions.php:350
+#: ../twentytwelve/functions.php:368 ../twentytwelve/functions.php:371
+msgid ", "
+msgstr ""
+
+#: ../extratoasty/functions.php:361 ../twentytwelve/functions.php:382
+#: ../zeedynamic/includes/template-tags.php:55
+#, php-format
+msgid "View all posts by %s"
+msgstr ""
+
+#: ../extratoasty/functions.php:367 ../twentytwelve/functions.php:388
+#, php-format
+msgid ""
+"This entry was posted in %1$s and tagged %2$s on %3$s<span class=\"by-author"
+"\"> by %4$s</span>."
+msgstr ""
+
+#: ../extratoasty/functions.php:369 ../twentytwelve/functions.php:390
+#, php-format
+msgid ""
+"This entry was posted in %1$s on %3$s<span class=\"by-author\"> by %4$s</"
+"span>."
+msgstr ""
+
+#: ../extratoasty/functions.php:371 ../twentytwelve/functions.php:392
+#, php-format
+msgid "This entry was posted on %3$s<span class=\"by-author\"> by %4$s</span>."
+msgstr ""
+
+#: ../extratoasty/header.php:55 ../twentytwelve/header.php:43
+#: ../zeedynamic/includes/customization/custom-jscript.php:18
+msgid "Menu"
+msgstr ""
+
+#: ../extratoasty/header.php:56 ../twentytwelve/header.php:44
+msgid "Skip to content"
+msgstr ""
+
+#: ../extratoasty/image.php:26
+#, php-format
+msgid ""
+"<span class=\"meta-prep meta-prep-entry-date\">Published </span> <span class="
+"\"entry-date\"><time class=\"entry-date\" datetime=\"%1$s\">%2$s</time></"
+"span> at <a href=\"%3$s\" title=\"Link to full-size image\">%4$s &times; "
+"%5$s</a> in <a href=\"%6$s\" title=\"Return to %7$s\" rel=\"gallery\">%8$s</"
+"a>."
+msgstr ""
+
+#: ../extratoasty/image.php:41
+msgid "&larr; Previous"
+msgstr ""
+
+#: ../extratoasty/image.php:42
+msgid "Next &rarr;"
+msgstr ""
+
+#: ../extratoasty/index.php:38
+msgid "No posts to display"
+msgstr ""
+
+#: ../extratoasty/index.php:42
+#, php-format
+msgid "Ready to publish your first post? <a href=\"%s\">Get started here</a>."
+msgstr ""
+
+# @ _s
+#: ../extratoasty/search.php:18 ../zeedynamic/search.php:9
+#: ../zeedynamic/search.php:23
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: ../extratoasty/search.php:38
+msgid ""
+"Sorry, but nothing matched your search criteria. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: ../extratoasty/tag.php:21 ../zeedynamic/tag.php:8
+#, php-format
+msgid "Tag Archives: %s"
+msgstr ""
+
+#: ../gavel/404.php:13
+msgid "Epic 404 - Article Not Found"
+msgstr ""
+
+#: ../gavel/404.php:19
+msgid ""
+"The article you were looking for was not found, but maybe try looking again!"
+msgstr ""
+
+#: ../gavel/404.php:31
+msgid "This is the 404.php template."
+msgstr ""
+
+#: ../gavel/archive-custom_type.php:33 ../gavel/page-custom.php:33
+#, php-format
+msgid ""
+"Posted <time class=\"updated\" datetime=\"%1$s\" itemprop=\"datePublished\">"
+"%2$s</time> by <span class=\"author\">%3$s</span>"
+msgstr ""
+
+#: ../gavel/archive-custom_type.php:33 ../gavel/functions.php:216
+#: ../gavel/taxonomy-custom_cat.php:33
+msgid "F jS, Y"
+msgstr ""
+
+#: ../gavel/archive-custom_type.php:58 ../gavel/archive.php:54
+#: ../gavel/index.php:54 ../gavel/page-custom.php:80
+#: ../gavel/single-custom_type.php:80 ../gavel/single.php:34
+#: ../gavel/taxonomy-custom_cat.php:57
+msgid "Oops, Post Not Found!"
+msgstr ""
+
+#: ../gavel/archive-custom_type.php:61 ../gavel/archive.php:57
+#: ../gavel/index.php:57 ../gavel/page-custom.php:83
+#: ../gavel/single-custom_type.php:83 ../gavel/single.php:37
+#: ../gavel/taxonomy-custom_cat.php:60
+msgid "Uh Oh. Something is missing. Try double checking things."
+msgstr ""
+
+#: ../gavel/archive-custom_type.php:64
+msgid "This is the error message in the custom posty type archive template."
+msgstr ""
+
+#: ../gavel/archive.php:22 ../gavel/index.php:17 ../gavel/page.php:18
+#: ../gavel/post-formats/format-aside.php:10
+#: ../gavel/post-formats/format-audio.php:10
+#: ../gavel/post-formats/format-chat.php:10
+#: ../gavel/post-formats/format-gallery.php:10
+#: ../gavel/post-formats/format-image.php:10
+#: ../gavel/post-formats/format-link.php:10
+#: ../gavel/post-formats/format-quote.php:10
+#: ../gavel/post-formats/format-status.php:10
+#: ../gavel/post-formats/format-video.php:10
+#: ../gavel/post-formats/format.php:25
+msgid "Posted"
+msgstr ""
+
+#: ../gavel/archive.php:26 ../gavel/index.php:21 ../gavel/page.php:18
+#: ../gavel/post-formats/format-aside.php:14
+#: ../gavel/post-formats/format-audio.php:14
+#: ../gavel/post-formats/format-chat.php:14
+#: ../gavel/post-formats/format-gallery.php:14
+#: ../gavel/post-formats/format-image.php:14
+#: ../gavel/post-formats/format-link.php:14
+#: ../gavel/post-formats/format-quote.php:14
+#: ../gavel/post-formats/format-status.php:14
+#: ../gavel/post-formats/format-video.php:14
+#: ../gavel/post-formats/format.php:29
+msgid "by"
+msgstr ""
+
+#: ../gavel/archive.php:60
+msgid "This is the error message in the archive.php template."
+msgstr ""
+
+#: ../gavel/comments.php:17 ../gavel/index.php:33
+msgid "<span>No</span> Comments"
+msgstr ""
+
+#: ../gavel/comments.php:17 ../gavel/index.php:33
+msgid "<span>One</span> Comment"
+msgstr ""
+
+#: ../gavel/comments.php:17 ../gavel/index.php:33
+msgid "<span>%</span> Comments"
+msgstr ""
+
+#: ../gavel/comments.php:38
+msgid "&larr; Previous Comments"
+msgstr ""
+
+#: ../gavel/comments.php:39
+msgid "More Comments &rarr;"
+msgstr ""
+
+#: ../gavel/footer.php:9 ../gavel/library/bones.php:213
+msgid "Footer Links"
+msgstr ""
+
+#: ../gavel/functions.php:103
+msgid "600px by 150px"
+msgstr ""
+
+#: ../gavel/functions.php:104
+msgid "300px by 100px"
+msgstr ""
+
+#: ../gavel/functions.php:159
+msgid "Sidebar 1"
+msgstr ""
+
+#: ../gavel/functions.php:160
+msgid "The first (primary) sidebar."
+msgstr ""
+
+#: ../gavel/functions.php:215
+#, php-format
+msgid "<cite class=\"fn\">%1$s</cite> %2$s"
+msgstr ""
+
+#: ../gavel/header.php:62 ../gavel/library/bones.php:212
+msgid "The Main Menu"
+msgstr ""
+
+#: ../gavel/index.php:37 ../gavel/post-formats/format.php:64
+msgid "filed under"
+msgstr ""
+
+#: ../gavel/index.php:39 ../gavel/page-custom.php:68
+#: ../gavel/post-formats/format-aside.php:47
+#: ../gavel/post-formats/format-audio.php:47
+#: ../gavel/post-formats/format-chat.php:47
+#: ../gavel/post-formats/format-gallery.php:47
+#: ../gavel/post-formats/format-image.php:47
+#: ../gavel/post-formats/format-link.php:50
+#: ../gavel/post-formats/format-quote.php:50
+#: ../gavel/post-formats/format-status.php:47
+#: ../gavel/post-formats/format-video.php:47
+#: ../gavel/post-formats/format.php:66 ../gavel/search.php:40
+msgid "Tags:"
+msgstr ""
+
+#: ../gavel/index.php:60
+msgid "This is the error message in the index.php template."
+msgstr ""
+
+#: ../gavel/library/admin.php:82
+msgid "j F Y @ g:i a"
+msgstr ""
+
+#: ../gavel/library/admin.php:94
+msgid "Recently on Themble (Customize on admin.php)"
+msgstr ""
+
+#: ../gavel/library/admin.php:141
+msgid ""
+"<span id=\"footer-thankyou\">Developed by <a href=\"http://yoursite.com\" "
+"target=\"_blank\">Your Site Name</a></span>. Built using <a href=\"http://"
+"themble.com/bones\" target=\"_blank\">Bones</a>."
+msgstr ""
+
+#: ../gavel/library/bones.php:251
+msgid "No Related Posts Yet!"
+msgstr ""
+
+#: ../gavel/library/bones.php:296
+msgid "Read "
+msgstr ""
+
+#: ../gavel/library/bones.php:296 ../gavel/search.php:30
+#: ../zeedynamic/includes/template-tags.php:477
+msgid "Read more &raquo;"
+msgstr ""
+
+#: ../gavel/library/custom-post-type.php:31
+msgid "Custom Types"
+msgstr ""
+
+#: ../gavel/library/custom-post-type.php:32
+msgid "Custom Post"
+msgstr ""
+
+#: ../gavel/library/custom-post-type.php:33
+msgid "All Custom Posts"
+msgstr ""
+
+#: ../gavel/library/custom-post-type.php:34
+msgid "Add New"
+msgstr ""
+
+#: ../gavel/library/custom-post-type.php:35
+msgid "Add New Custom Type"
+msgstr ""
+
+#: ../gavel/library/custom-post-type.php:37
+msgid "Edit Post Types"
+msgstr ""
+
+#: ../gavel/library/custom-post-type.php:38
+msgid "New Post Type"
+msgstr ""
+
+#: ../gavel/library/custom-post-type.php:39
+msgid "View Post Type"
+msgstr ""
+
+#: ../gavel/library/custom-post-type.php:40
+msgid "Search Post Type"
+msgstr ""
+
+#: ../gavel/library/custom-post-type.php:41
+msgid "Nothing found in the Database."
+msgstr ""
+
+#: ../gavel/library/custom-post-type.php:42
+msgid "Nothing found in Trash"
+msgstr ""
+
+#: ../gavel/library/custom-post-type.php:45
+msgid "This is the example custom post type"
+msgstr ""
+
+#: ../gavel/library/custom-post-type.php:82
+msgid "Custom Categories"
+msgstr ""
+
+#: ../gavel/library/custom-post-type.php:83
+msgid "Custom Category"
+msgstr ""
+
+#: ../gavel/library/custom-post-type.php:84
+msgid "Search Custom Categories"
+msgstr ""
+
+#: ../gavel/library/custom-post-type.php:85
+msgid "All Custom Categories"
+msgstr ""
+
+#: ../gavel/library/custom-post-type.php:86
+msgid "Parent Custom Category"
+msgstr ""
+
+#: ../gavel/library/custom-post-type.php:87
+msgid "Parent Custom Category:"
+msgstr ""
+
+#: ../gavel/library/custom-post-type.php:88
+msgid "Edit Custom Category"
+msgstr ""
+
+#: ../gavel/library/custom-post-type.php:89
+msgid "Update Custom Category"
+msgstr ""
+
+#: ../gavel/library/custom-post-type.php:90
+msgid "Add New Custom Category"
+msgstr ""
+
+#: ../gavel/library/custom-post-type.php:91
+msgid "New Custom Category Name"
+msgstr ""
+
+#: ../gavel/library/custom-post-type.php:105
+msgid "Custom Tags"
+msgstr ""
+
+#: ../gavel/library/custom-post-type.php:106
+msgid "Custom Tag"
+msgstr ""
+
+#: ../gavel/library/custom-post-type.php:107
+msgid "Search Custom Tags"
+msgstr ""
+
+#: ../gavel/library/custom-post-type.php:108
+msgid "All Custom Tags"
+msgstr ""
+
+#: ../gavel/library/custom-post-type.php:109
+msgid "Parent Custom Tag"
+msgstr ""
+
+#: ../gavel/library/custom-post-type.php:110
+msgid "Parent Custom Tag:"
+msgstr ""
+
+#: ../gavel/library/custom-post-type.php:111
+msgid "Edit Custom Tag"
+msgstr ""
+
+#: ../gavel/library/custom-post-type.php:112
+msgid "Update Custom Tag"
+msgstr ""
+
+#: ../gavel/library/custom-post-type.php:113
+msgid "Add New Custom Tag"
+msgstr ""
+
+#: ../gavel/library/custom-post-type.php:114
+msgid "New Custom Tag Name"
+msgstr ""
+
+#: ../gavel/page-custom.php:86
+msgid "This is the error message in the page-custom.php template."
+msgstr ""
+
+#: ../gavel/post-formats/format-link.php:48
+#: ../gavel/post-formats/format-quote.php:48 ../gavel/search.php:37
+#, php-format
+msgid "Filed under: %1$s"
+msgstr ""
+
+#: ../gavel/search.php:8
+msgid "Search Results for:"
+msgstr ""
+
+#: ../gavel/search.php:19
+#, php-format
+msgid "Posted %1$s by %2$s"
+msgstr ""
+
+#: ../gavel/search.php:54
+msgid "Sorry, No Results."
+msgstr ""
+
+#: ../gavel/search.php:57
+msgid "Try your search again."
+msgstr ""
+
+#: ../gavel/search.php:60
+msgid "This is the error message in the search.php template."
+msgstr ""
+
+#: ../gavel/searchform.php:3
+msgid "Search for:"
+msgstr ""
+
+#: ../gavel/searchform.php:6 ../zeedynamic/404.php:14
+msgid "Search"
+msgstr ""
+
+#: ../gavel/sidebar.php:16
+msgid "This is a widget ready area. Add some and they will appear here."
+msgstr ""
+
+#: ../gavel/single-custom_type.php:34 ../gavel/taxonomy-custom_cat.php:33
+#, php-format
+msgid ""
+"Posted <time class=\"updated\" datetime=\"%1$s\" itemprop=\"datePublished\">"
+"%2$s</time> by <span class=\"author\">%3$s</span> <span class=\"amp\">&</"
+"span> filed under %4$s."
+msgstr ""
+
+#: ../gavel/single-custom_type.php:66
+msgid "Custom Tags:"
+msgstr ""
+
+#: ../gavel/single-custom_type.php:86
+msgid "This is the error message in the single-custom_type.php template."
+msgstr ""
+
+#: ../gavel/single.php:40
+msgid "This is the error message in the single.php template."
+msgstr ""
+
+#: ../gavel/taxonomy-custom_cat.php:23
+msgid "Posts Categorized:"
+msgstr ""
+
+#: ../gavel/taxonomy-custom_cat.php:39
+msgid "Read More &raquo;"
+msgstr ""
+
+#: ../gavel/taxonomy-custom_cat.php:63
+msgid "This is the error message in the taxonomy-custom_cat.php template."
+msgstr ""
+
+# @ _s
+#: ../lectern - Copy/template-parts/content-none.php:20
+#: ../lectern/template-parts/content-none.php:20
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+# @ _s
+#: ../lectern - Copy/template-parts/content.php:28
+#: ../lectern/template-parts/content.php:28
+#, php-format
+msgid "Continue reading %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: ../lectern/inc/customizer.php:30
+msgid ""
+"Use this control to add a Toastmasters-branded banner image to include in "
+"the site header. (To add any other image, use the Header Image customizer "
+"control)."
+msgstr ""
+
+#: ../lectern/inc/customizer.php:42
+msgid "Get Banner"
+msgstr ""
+
+#: ../lectern/inc/customizer.php:44
+msgid ""
+"If you are running WordPress 4.3 or higher, this control will also attempt "
+"to add the Toastmasters logo as the site icon. The site icon can also be "
+"modified with the Site Identity customizer control."
+msgstr ""
+
+#: ../lectern/inc/toastmasters.php:46 ../lectern/inc/toastmasters.php:92
+msgid "Error retrieving"
+msgstr ""
+
+#: ../zeedynamic/404.php:9
+msgid "404 Error: Not found"
+msgstr ""
+
+#: ../zeedynamic/404.php:12
+msgid ""
+"The page you trying to reach does not exist, or has been moved. Please use "
+"the menus or the search box to find what you are looking for"
+msgstr ""
+
+#: ../zeedynamic/404.php:17
+msgid "Recent Posts"
+msgstr ""
+
+#: ../zeedynamic/404.php:27
+msgid "Pages"
+msgstr ""
+
+#: ../zeedynamic/comments.php:13
+msgid "Enter password to view comments."
+msgstr ""
+
+#: ../zeedynamic/comments.php:23 ../zeedynamic/includes/template-tags.php:63
+#: ../zeedynamic/includes/template-tags.php:131
+msgid "One comment"
+msgstr ""
+
+#: ../zeedynamic/comments.php:23 ../zeedynamic/includes/template-tags.php:63
+#: ../zeedynamic/includes/template-tags.php:131
+#, php-format
+msgid "% comments"
+msgstr ""
+
+#: ../zeedynamic/functions.php:99
+msgid "Main Navigation"
+msgstr ""
+
+#: ../zeedynamic/functions.php:137
+msgid ""
+"Appears on posts and also pages (in case Sidebar Pages has no widgets) "
+"except frontpage/fullwidth template."
+msgstr ""
+
+#: ../zeedynamic/functions.php:144
+msgid "Sidebar Pages"
+msgstr ""
+
+#: ../zeedynamic/functions.php:146
+msgid ""
+"Appears on static pages only. Leave this widget area empty to use Main "
+"Sidebar on pages."
+msgstr ""
+
+#: ../zeedynamic/functions.php:216
+msgid "zeeDynamic Theme"
+msgstr ""
+
+#: ../zeedynamic/image.php:22
+msgid "Previous"
+msgstr ""
+
+#: ../zeedynamic/image.php:23
+msgid "Next"
+msgstr ""
+
+#: ../zeedynamic/image.php:25
+msgid "Return to Gallery"
+msgstr ""
+
+#: ../zeedynamic/image.php:26
+msgid "Return to"
+msgstr ""
+
+#: ../zeedynamic/includes/customization/custom-jscript.php:78
+msgid "Load More Posts"
+msgstr ""
+
+#: ../zeedynamic/includes/customization/custom-jscript.php:79
+msgid "Loading posts..."
+msgstr ""
+
+#: ../zeedynamic/includes/customization/custom-jscript.php:80
+msgid "No more posts to load."
+msgstr ""
+
+#: ../zeedynamic/includes/options/options-framework.php:17
+#: ../zeedynamic/includes/options/options-framework.php:62
+msgid "Theme Options"
+msgstr ""
+
+#: ../zeedynamic/includes/options/options-framework.php:43
+msgid "Use this Image"
+msgstr ""
+
+#: ../zeedynamic/includes/options/options-framework.php:80
+msgid "Theme Options successfully updated."
+msgstr ""
+
+#: ../zeedynamic/includes/options/options-framework.php:147
+#: ../zeedynamic/includes/options/options-framework.php:149
+msgid "Welcome"
+msgstr ""
+
+#: ../zeedynamic/includes/options/options-framework.php:302
+msgid "Upload Image"
+msgstr ""
+
+#: ../zeedynamic/includes/options/options-setup.php:27
+msgid "General"
+msgstr ""
+
+#: ../zeedynamic/includes/options/options-setup.php:32
+msgid "Colors"
+msgstr ""
+
+#: ../zeedynamic/includes/options/options-setup.php:37
+msgid "Front Page"
+msgstr ""
+
+#: ../zeedynamic/includes/options/options-setup.php:50
+msgid "Theme Data"
+msgstr ""
+
+#: ../zeedynamic/includes/options/options-setup.php:52
+msgid "Name"
+msgstr ""
+
+#: ../zeedynamic/includes/options/options-setup.php:53
+msgid "Version"
+msgstr ""
+
+#: ../zeedynamic/includes/options/options-setup.php:54
+msgid "(Changelog)"
+msgstr ""
+
+#: ../zeedynamic/includes/options/options-setup.php:55
+msgid "Author"
+msgstr ""
+
+#: ../zeedynamic/includes/options/options-setup.php:60
+msgid "Quick Links"
+msgstr ""
+
+#: ../zeedynamic/includes/options/options-setup.php:63
+#: ../zeedynamic/includes/options/options-setup.php:122
+msgid "Learn more about the PRO Version"
+msgstr ""
+
+#: ../zeedynamic/includes/options/options-setup.php:64
+#: ../zeedynamic/includes/options/options-setup.php:97
+msgid "Theme Documentation"
+msgstr ""
+
+#: ../zeedynamic/includes/options/options-setup.php:65
+#: ../zeedynamic/includes/options/options-setup.php:137
+msgid "Rate zeeDynamic on wordpress.org"
+msgstr ""
+
+#: ../zeedynamic/includes/options/options-setup.php:70
+msgid "Subscribe Now"
+msgstr ""
+
+#: ../zeedynamic/includes/options/options-setup.php:72
+msgid ""
+"Subscribe now and get informed about each <b>Theme Release</b> from ThemeZee."
+msgstr ""
+
+#: ../zeedynamic/includes/options/options-setup.php:74
+msgid "RSS Feed"
+msgstr ""
+
+#: ../zeedynamic/includes/options/options-setup.php:75
+msgid "Email Subscription"
+msgstr ""
+
+#: ../zeedynamic/includes/options/options-setup.php:76
+msgid "Follow me on Twitter"
+msgstr ""
+
+#: ../zeedynamic/includes/options/options-setup.php:77
+msgid "Become a Facebook Fan"
+msgstr ""
+
+#: ../zeedynamic/includes/options/options-setup.php:82
+msgid "Help to translate"
+msgstr ""
+
+#: ../zeedynamic/includes/options/options-setup.php:84
+msgid ""
+"You want to use this WordPress theme in your native language? Then help out "
+"to translate it!"
+msgstr ""
+
+#: ../zeedynamic/includes/options/options-setup.php:85
+msgid "Join the Online Translation Project"
+msgstr ""
+
+#: ../zeedynamic/includes/options/options-setup.php:100
+msgid "Thank you for installing this theme!"
+msgstr ""
+
+#: ../zeedynamic/includes/options/options-setup.php:102
+msgid "Welcome to"
+msgstr ""
+
+#: ../zeedynamic/includes/options/options-setup.php:104
+msgid ""
+"First of all, the theme options might alarm you, <b>but don't panic</b>. "
+"Everything is organized and documented well enough for you."
+msgstr ""
+
+#: ../zeedynamic/includes/options/options-setup.php:109
+msgid "Want more features?"
+msgstr ""
+
+#: ../zeedynamic/includes/options/options-setup.php:112
+msgid ""
+"The <b>PRO Version</b> provide additional features to <b>customize</b> and "
+"configure your Theme."
+msgstr ""
+
+#: ../zeedynamic/includes/options/options-setup.php:113
+msgid "Some Pro Features:"
+msgstr ""
+
+#: ../zeedynamic/includes/options/options-setup.php:115
+msgid "+ Custom Color Management"
+msgstr ""
+
+#: ../zeedynamic/includes/options/options-setup.php:116
+msgid "+ several Pro Widgets"
+msgstr ""
+
+#: ../zeedynamic/includes/options/options-setup.php:117
+msgid "+ Custom Font Manager"
+msgstr ""
+
+#: ../zeedynamic/includes/options/options-setup.php:118
+msgid "+ Widgetized Footer Area"
+msgstr ""
+
+#: ../zeedynamic/includes/options/options-setup.php:119
+msgid "+ Header Content Area"
+msgstr ""
+
+#: ../zeedynamic/includes/options/options-setup.php:120
+msgid "+ and a lot more.."
+msgstr ""
+
+#: ../zeedynamic/includes/options/options-setup.php:127
+msgid "Need help?"
+msgstr ""
+
+#: ../zeedynamic/includes/options/options-setup.php:129
+msgid "About Theme Support"
+msgstr ""
+
+#: ../zeedynamic/includes/options/options-setup.php:131
+msgid ""
+"<b>Video tutorials</b> and personal help via <b>support forum</b> is only "
+"available for purchasers of the PRO version."
+msgstr ""
+
+#: ../zeedynamic/includes/options/options-setup.php:133
+msgid "Like this theme?"
+msgstr ""
+
+#: ../zeedynamic/includes/options/options-setup.php:135
+msgid "Support theme development"
+msgstr ""
+
+#: ../zeedynamic/includes/options/options-setup.php:136
+msgid ""
+"If you like this free theme I'd highly appreciate your feedback. Thank you "
+"very much."
+msgstr ""
+
+#: ../zeedynamic/includes/options/options-setup.php:142
+msgid "Not happy with"
+msgstr ""
+
+#: ../zeedynamic/includes/options/options-setup.php:145
+msgid "ThemeZee.com provide several other <b>free WordPress Themes</b>."
+msgstr ""
+
+#: ../zeedynamic/includes/options/options-setup.php:146
+msgid "Click here to browse through all of my themes."
+msgstr ""
+
+#: ../zeedynamic/includes/options/settings/settings-colors.php:7
+msgid "Predefined Color Schemes"
+msgstr ""
+
+#: ../zeedynamic/includes/options/settings/settings-colors.php:15
+msgid "Blue"
+msgstr ""
+
+#: ../zeedynamic/includes/options/settings/settings-colors.php:16
+msgid "Brown"
+msgstr ""
+
+#: ../zeedynamic/includes/options/settings/settings-colors.php:17
+msgid "Gray"
+msgstr ""
+
+#: ../zeedynamic/includes/options/settings/settings-colors.php:18
+msgid "Green"
+msgstr ""
+
+#: ../zeedynamic/includes/options/settings/settings-colors.php:19
+msgid "Orange"
+msgstr ""
+
+#: ../zeedynamic/includes/options/settings/settings-colors.php:20
+msgid "Purple"
+msgstr ""
+
+#: ../zeedynamic/includes/options/settings/settings-colors.php:21
+msgid "Teal"
+msgstr ""
+
+#: ../zeedynamic/includes/options/settings/settings-colors.php:22
+msgid "Standard"
+msgstr ""
+
+#: ../zeedynamic/includes/options/settings/settings-colors.php:29
+msgid "Set Color Scheme"
+msgstr ""
+
+#: ../zeedynamic/includes/options/settings/settings-colors.php:30
+msgid "Please select your color scheme here."
+msgstr ""
+
+#: ../zeedynamic/includes/options/settings/settings-frontpage.php:7
+msgid "Activate Frontpage Template"
+msgstr ""
+
+#: ../zeedynamic/includes/options/settings/settings-frontpage.php:10
+msgid "Frontpage Slider"
+msgstr ""
+
+#: ../zeedynamic/includes/options/settings/settings-frontpage.php:13
+msgid "#1 Posts from Category (horizontal)"
+msgstr ""
+
+#: ../zeedynamic/includes/options/settings/settings-frontpage.php:16
+msgid "#2 Posts from Category  (boxed)"
+msgstr ""
+
+#: ../zeedynamic/includes/options/settings/settings-frontpage.php:19
+msgid "#3 Posts from two Categories (2 columns)"
+msgstr ""
+
+#: ../zeedynamic/includes/options/settings/settings-frontpage.php:22
+msgid "#4 Posts from Category (boxed)"
+msgstr ""
+
+#: ../zeedynamic/includes/options/settings/settings-frontpage.php:25
+msgid "Normal Blog Posts"
+msgstr ""
+
+#: ../zeedynamic/includes/options/settings/settings-frontpage.php:47
+msgid "Turn on Frontpage Template?"
+msgstr ""
+
+#: ../zeedynamic/includes/options/settings/settings-frontpage.php:48
+msgid ""
+"Check this to automatically display the frontpage template on HOME page. You "
+"can also manually create a page and select the \"Frontpage Template\" page "
+"template instead of using this option."
+msgstr ""
+
+#: ../zeedynamic/includes/options/settings/settings-frontpage.php:56
+msgid "Show Frontpage Slider?"
+msgstr ""
+
+#: ../zeedynamic/includes/options/settings/settings-frontpage.php:57
+msgid ""
+"Check this to activate the Slideshow displayed on the front page template."
+msgstr ""
+
+#: ../zeedynamic/includes/options/settings/settings-frontpage.php:63
+msgid "Slider Animation"
+msgstr ""
+
+#: ../zeedynamic/includes/options/settings/settings-frontpage.php:69
+msgid "Horizontal Slider"
+msgstr ""
+
+#: ../zeedynamic/includes/options/settings/settings-frontpage.php:70
+msgid "Fade Slider"
+msgstr ""
+
+#: ../zeedynamic/includes/options/settings/settings-frontpage.php:74
+msgid "Slider Speed"
+msgstr ""
+
+#: ../zeedynamic/includes/options/settings/settings-frontpage.php:75
+msgid ""
+"Enter the speed of the slideshow cycling (timeout between slides), in "
+"milliseconds."
+msgstr ""
+
+#: ../zeedynamic/includes/options/settings/settings-frontpage.php:81
+msgid "Slider Content"
+msgstr ""
+
+#: ../zeedynamic/includes/options/settings/settings-frontpage.php:87
+msgid "Show recent posts"
+msgstr ""
+
+#: ../zeedynamic/includes/options/settings/settings-frontpage.php:88
+msgid "Show popular posts"
+msgstr ""
+
+#: ../zeedynamic/includes/options/settings/settings-frontpage.php:91
+msgid "Slider Category"
+msgstr ""
+
+#: ../zeedynamic/includes/options/settings/settings-frontpage.php:92
+msgid ""
+"Select a category which posts are displayed at the featured posts slider ."
+msgstr ""
+
+#: ../zeedynamic/includes/options/settings/settings-frontpage.php:99
+msgid "Number of Posts"
+msgstr ""
+
+#: ../zeedynamic/includes/options/settings/settings-frontpage.php:100
+msgid "Enter the number how much posts should be displayed in the post slider."
+msgstr ""
+
+#: ../zeedynamic/includes/options/settings/settings-frontpage.php:108
+msgid "Category Posts Title"
+msgstr ""
+
+#: ../zeedynamic/includes/options/settings/settings-frontpage.php:109
+msgid "Enter here the title which is displayed above the category posts."
+msgstr ""
+
+#: ../zeedynamic/includes/options/settings/settings-frontpage.php:115
+#: ../zeedynamic/includes/options/settings/settings-frontpage.php:125
+#: ../zeedynamic/includes/options/settings/settings-frontpage.php:143
+#: ../zeedynamic/includes/options/settings/settings-frontpage.php:153
+msgid "Category"
+msgstr ""
+
+#: ../zeedynamic/includes/options/settings/settings-frontpage.php:116
+#: ../zeedynamic/includes/options/settings/settings-frontpage.php:126
+#: ../zeedynamic/includes/options/settings/settings-frontpage.php:144
+#: ../zeedynamic/includes/options/settings/settings-frontpage.php:154
+msgid "Select the category of which posts should be displayed."
+msgstr ""
+
+#: ../zeedynamic/includes/options/settings/settings-frontpage.php:135
+msgid "First Category "
+msgstr ""
+
+#: ../zeedynamic/includes/options/settings/settings-frontpage.php:136
+msgid "Select the first category of which posts should be displayed."
+msgstr ""
+
+#: ../zeedynamic/includes/options/settings/settings-frontpage.php:163
+msgid "Display Latest Blog Posts?"
+msgstr ""
+
+#: ../zeedynamic/includes/options/settings/settings-frontpage.php:164
+msgid ""
+"Check this to show the latest blog posts in the normal blog layout on the "
+"frontpage template"
+msgstr ""
+
+#: ../zeedynamic/includes/options/settings/settings-frontpage.php:170
+msgid "Latest Blog Posts Category"
+msgstr ""
+
+#: ../zeedynamic/includes/options/settings/settings-frontpage.php:171
+msgid "Select the category of which the latest blog posts should be displayed."
+msgstr ""
+
+#: ../zeedynamic/includes/options/settings/settings-general.php:7
+msgid "Header Settings"
+msgstr ""
+
+#: ../zeedynamic/includes/options/settings/settings-general.php:10
+msgid "Layout Settings"
+msgstr ""
+
+#: ../zeedynamic/includes/options/settings/settings-general.php:13
+msgid "Custom CSS Code"
+msgstr ""
+
+#: ../zeedynamic/includes/options/settings/settings-general.php:24
+msgid "Logo Image"
+msgstr ""
+
+#: ../zeedynamic/includes/options/settings/settings-general.php:25
+msgid ""
+"Paste the full Image URL of your logo or click Upload Image. Leave this "
+"field blank to display the site title instead of a logo image."
+msgstr ""
+
+#: ../zeedynamic/includes/options/settings/settings-general.php:31
+msgid "Show Tagline?"
+msgstr ""
+
+#: ../zeedynamic/includes/options/settings/settings-general.php:32
+msgid ""
+"Check this if you want to show your tagline(blog description) below the logo"
+msgstr ""
+
+#: ../zeedynamic/includes/options/settings/settings-general.php:40
+msgid "Theme Layout"
+msgstr ""
+
+#: ../zeedynamic/includes/options/settings/settings-general.php:46
+msgid "Boxed (default)"
+msgstr ""
+
+#: ../zeedynamic/includes/options/settings/settings-general.php:47
+msgid "Wide"
+msgstr ""
+
+#: ../zeedynamic/includes/options/settings/settings-general.php:51
+msgid "Sidebar Options"
+msgstr ""
+
+#: ../zeedynamic/includes/options/settings/settings-general.php:57
+msgid "Left Sidebar"
+msgstr ""
+
+#: ../zeedynamic/includes/options/settings/settings-general.php:58
+msgid "Right Sidebar"
+msgstr ""
+
+#: ../zeedynamic/includes/options/settings/settings-general.php:62
+msgid "Footer Content"
+msgstr ""
+
+#: ../zeedynamic/includes/options/settings/settings-general.php:63
+msgid "Enter the content which is displayed in the footer here."
+msgstr ""
+
+#: ../zeedynamic/includes/options/settings/settings-general.php:71
+msgid "Custom CSS"
+msgstr ""
+
+#: ../zeedynamic/includes/options/settings/settings-general.php:72
+msgid "Place your Custom CSS code here."
+msgstr ""
+
+#: ../zeedynamic/includes/template-tags.php:43
+#, php-format
+msgid ""
+"Posted on <a href=\"%1$s\" title=\"%2$s\" rel=\"bookmark\"><time datetime="
+"\"%3$s\">%4$s</time></a>"
+msgstr ""
+
+#: ../zeedynamic/includes/template-tags.php:53
+#, php-format
+msgid "by <a href=\"%1$s\" title=\"%2$s\" rel=\"author\">%3$s</a>"
+msgstr ""
+
+# @ _s
+#: ../zeedynamic/includes/template-tags.php:63
+#: ../zeedynamic/includes/template-tags.php:131
+msgid "Leave a comment"
+msgstr ""
+
+#: ../zeedynamic/includes/template-tags.php:67
+msgid "Edit Post"
+msgstr ""
+
+#: ../zeedynamic/includes/template-tags.php:97
+#, php-format
+msgid "tagged with %1$s"
+msgstr ""
+
+#: ../zeedynamic/includes/template-tags.php:156
+msgid "&laquo; Older Entries"
+msgstr ""
+
+#: ../zeedynamic/includes/template-tags.php:157
+msgid "Recent Entries &raquo;"
+msgstr ""
+
+#: ../zeedynamic/includes/template-tags.php:301
+#: ../zeedynamic/includes/template-tags.php:375
+#: ../zeedynamic/includes/template-tags.php:410
+#, php-format
+msgid "<span>Latest in</span> %s"
+msgstr ""
+
+#: ../zeedynamic/loop-excerpt.php:12 ../zeedynamic/loop-frontpage.php:12
+msgid "Read more"
+msgstr ""
+
+#: ../zeedynamic/loop.php:11
+msgid "<span>Read more</span>"
+msgstr ""
+
+#: ../zeedynamic/search.php:29
+msgid ""
+"No matches. Please try again, or use the navigation menus to find what you "
+"search for."
+msgstr ""
+
+#: ../zeedynamic/sidebar.php:20
+msgid "Widget Area"
+msgstr ""
