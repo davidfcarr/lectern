@@ -71,7 +71,8 @@ if ( ! function_exists( 'lectern_posted_on' ) ) :
  */
 function lectern_posted_on() {
 	$time_string = '<time class="entry-date published updated" datetime="%1$s">%2$s</time>';
-	if ( get_the_time( 'U' ) !== get_the_modified_time( 'U' ) ) {
+	if ( date('Y-m-d',get_the_time( 'U' )) !== date('Y-m-d',get_the_modified_time( 'U' )) ) {
+		// if updated more than a day later ...
 		$time_string = '<time class="entry-date published" datetime="%1$s">%2$s</time> ('.__('Updated','lectern').': <time class="updated" datetime="%3$s">%4$s</time>)';
 	}
 
@@ -123,7 +124,7 @@ function lectern_entry_footer() {
 		echo '</span>';
 	}
 
-	edit_post_link( esc_html__( 'Edit', 'lectern' ), '<span class="edit-link">', '</span>' );
+	edit_post_link( esc_html__( 'Edit', 'lectern' ), ' <span class="edit-link">', '</span>' );
 }
 endif;
 
@@ -172,7 +173,7 @@ function the_archive_title( $before = '', $after = '' ) {
 			$title = esc_html_x( 'Chats', 'post format archive title', 'lectern' );
 		}
 	} elseif ( is_post_type_archive() ) {
-		$title = sprintf( esc_html__( 'Archives: %s', 'lectern' ), post_type_archive_title( '', false ) );
+		$title = sprintf( esc_html__( 'Archive: %s', 'lectern' ), post_type_archive_title( '', false ) );
 	} elseif ( is_tax() ) {
 		$tax = get_taxonomy( get_queried_object()->taxonomy );
 		/* translators: 1: Taxonomy singular name, 2: Current taxonomy term */

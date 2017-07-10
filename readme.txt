@@ -5,7 +5,7 @@ Tags: translation-ready, custom-background, theme-options, custom-menu, post-for
 
 Requires at least: 4.0
 Tested up to: 4.7.5
-Stable tag: 1.1.1
+Stable tag: 1.1.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -31,6 +31,10 @@ While Lectern can be used for any purpose, it was designed as an easy-to-install
 * Lectern includes support for Infinite Scroll in Jetpack.
 
 == Changelog ==
+
+= 1.1.2 =
+
+Fixes to post template.
 
 = 1.1.1 =
 
