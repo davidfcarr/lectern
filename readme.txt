@@ -4,8 +4,8 @@ Contributors: davidfcarr, automattic
 Tags: translation-ready, custom-background, theme-options, custom-menu, post-formats, threaded-comments
 
 Requires at least: 4.0
-Tested up to: 4.7.5
-Stable tag: 1.1.2
+Tested up to: 5.0.2
+Stable tag: 1.1.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -31,6 +31,16 @@ While Lectern can be used for any purpose, it was designed as an easy-to-install
 * Lectern includes support for Infinite Scroll in Jetpack.
 
 == Changelog ==
+
+= 1.1.4 =
+
+* Adding a little Gutenberg styling.
+* More Toastmasters branding choices. Fixing code error related to custom header class.
+
+= 1.1.3 =
+
+* Adding landing page template with no menu, no sidebar larger fonts
+* Editor style tweaks for full width and landing page templates
 
 = 1.1.2 =
 

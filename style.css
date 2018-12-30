@@ -4,7 +4,7 @@ Theme URI: http://wp4toastmasters.com/lectern/
 Author: Carr Communications Inc.
 Author URI: http://www.carrcommunications.com
 Description:  While Lectern can be used for any purpose, it was designed as an easy-to-install theme for Toastmasters clubs and districts wanting to set up a site that uses WordPress but conforms to the organization's branding guidelines. It can be used in combination with the RSVPMaker for Toastmasters plugin or separately. The header setup works well with the branded banner images Toastmasters has approved for use on the web, which can be easily imported through the Theme Customizer. Site owners using the theme for other purposes can upload their own header image, which will be displayed as a background image behind the site title and tagline. The header layout and navigation menu are configured to be responsive, reformatting for display on smart phones and other small screens. 
-Version: 1.1.2
+Version: 1.1.4
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: lectern
@@ -1728,3 +1728,27 @@ div#toastmasters-disclaimer h3 {
     z-index: 90;
 }
 
+/* for Gutenberg */
+
+@media only screen and (min-width: 768px) {
+
+  .alignfull {
+    margin-left: calc(50% - 50vw);
+    margin-right: calc(50% - 50vw);
+    width: auto;
+    max-width: 1000%;
+  }
+
+  .alignwide {
+    margin-left: calc(25% - 25vw);
+    margin-right: calc(25% - 25vw);
+    width: auto;
+    max-width: 1000%;
+  }
+
+  .alignwide img,
+  .alignfull img {
+    display: block;
+    margin: 0 auto;
+  }
+}

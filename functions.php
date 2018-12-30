@@ -10,9 +10,30 @@ if ( ! isset( $content_width ) ) {
 }
 
 function lectern_editor_setup() {
-add_editor_style();
+	add_editor_style();
 }
 add_action('admin_init','lectern_editor_setup');
+
+add_filter('tiny_mce_before_init','lectern_full_width_editor_styles');
+function lectern_full_width_editor_styles( $mceInit ) {
+global $post;
+if(empty($post) || empty($post->ID))
+	return;
+$t = get_page_template_slug($post->ID);
+if($t == 'full-width-page.php')
+    $mceInit['content_css'] = ','.get_stylesheet_directory_uri().'/editor-style-full-width.css';
+elseif($t == 'landing-page.php')
+    $mceInit['content_css'] .= ','.get_stylesheet_directory_uri().'/style-landing.css';
+
+    return $mceInit;
+}
+
+function landing_page_stylesheet () {
+	if(is_page_template('landing-page.php'))
+		wp_enqueue_style( 'landing-page', get_stylesheet_directory_uri().'/style-landing.css');
+}
+
+add_action( 'wp_enqueue_scripts', 'landing_page_stylesheet',99 );
 
 if ( ! function_exists( 'lectern_setup' ) ) :
 /**
@@ -154,3 +175,8 @@ require get_template_directory() . '/inc/jetpack.php';
  * Allow admins to add Toastmasters branding
  */
 require get_template_directory() . '/inc/toastmasters.php';
+/**
+ * For Gutenberg
+ */
+add_theme_support( 'align-wide' );
+

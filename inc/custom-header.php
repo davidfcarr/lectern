@@ -26,7 +26,7 @@ function lectern_custom_header_setup() {
 		'default-image'          => apply_filters('lectern_default_header',get_template_directory_uri() . '/images/lectern-banner.png'),
 
 		// Set height and width, with a maximum value for the width.
-		'height'                 => 194,
+		'height'                 => 190,
 		'width'                  => 1094,
 		'max-width'              => 1094,
 

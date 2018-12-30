@@ -1,0 +1,58 @@
+html .mceContentBody {
+    max-width:1040px;
+	font-size: 18px;
+}
+p
+{
+	font-size: 18px;
+}
+	
+h1 {
+	font-size: 26px;
+	margin: 33px 0;
+}
+
+h2 {
+	font-size: 24px;
+	margin: 25px 0;
+}
+
+h3 {
+	font-size: 22px;
+	margin: 22px 0;
+}
+
+h4 {
+	font-size: 21px;
+	margin: 25px 0;
+}
+
+h5 {
+	font-size: 20px;
+	margin: 30px 0;
+}
+
+h6 {
+	font-size: 19px;
+	margin: 36px 0;
+}
+blockquote {
+	font-size: 20px;
+}
+
+blockquote cite,
+blockquote small {
+	font-size: 16px;
+}
+.entry-header .entry-title {
+    font-size: 28px;
+    line-height: 1.7;
+    font-weight: normal;
+    margin: 0;
+}
+div#toastmasters-disclaimer, div#toastmasters-disclaimer p {
+	font-size: 12px;
+}
+form, form p {
+	font-size: 14px;
+}

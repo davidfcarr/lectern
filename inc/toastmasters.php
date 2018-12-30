@@ -6,7 +6,17 @@ return array("toastmasters.jpg" => "http://wp4toastmasters.com/tmbranding/toastm
 "toastmasters3.jpg" => "http://wp4toastmasters.com/tmbranding/toastmasters3.jpg",
 "toastmasters4.jpg" => "http://wp4toastmasters.com/tmbranding/toastmasters4.jpg",
 "toastmasters5.jpg" => "http://wp4toastmasters.com/tmbranding/toastmasters5.jpg",
-"toastmasters6.jpg" => "http://wp4toastmasters.com/tmbranding/toastmasters6.jpg");
+"toastmasters6.jpg" => "http://wp4toastmasters.com/tmbranding/toastmasters6.jpg",
+"toastmasters7.png" => "http://wp4toastmasters.com/tmbranding/toastmasters7.png",
+"toastmasters8.png" => "http://wp4toastmasters.com/tmbranding/toastmasters8.png",
+"toastmasters9.png" => "http://wp4toastmasters.com/tmbranding/toastmasters9.png",
+"toastmasters10.png" => "http://wp4toastmasters.com/tmbranding/toastmasters10.png",
+"toastmasters11.png" => "http://wp4toastmasters.com/tmbranding/toastmasters11.png",
+"toastmasters12.png" => "http://wp4toastmasters.com/tmbranding/toastmasters12.png",
+"toastmasters13.png" => "http://wp4toastmasters.com/tmbranding/toastmasters13.png",
+"toastmasters14.png" => "http://wp4toastmasters.com/tmbranding/toastmasters14.png",
+"toastmasters15.png" => "http://wp4toastmasters.com/tmbranding/toastmasters15.png",
+);
 }
 
 function grab_tm_images () {
@@ -31,9 +41,9 @@ $wp_upload_dir = wp_upload_dir();
  * @return bool|string False on failure and string of headers if HEAD request.
  */
 
-if(!isset($_POST["banner"]))
+if(!isset($_REQUEST["banner"]))
 	return;
-$basename = $_POST["banner"];
+$basename = $_REQUEST["banner"];
 $url = $tm_images[$basename];
 
 if(!empty($url))
@@ -75,7 +85,16 @@ if(!empty($url))
 	$choice["attachment_id"] = $attach_id;
 	$choice["width"] = $attach_data["width"];
 	$choice["height"] = $attach_data["height"];
-	Custom_Image_Header::set_header_image($choice);
+	$args = get_theme_support( 'custom-header' );
+	if ( $args[0]['wp-head-callback'] )
+		add_action( 'wp_head', $args[0]['wp-head-callback'] );
+
+	if ( is_admin() ) {
+		require_once( ABSPATH . 'wp-admin/custom-header.php' );
+		$myheader = new Custom_Image_Header( $args[0]['admin-head-callback'], $args[0]['admin-preview-callback'] );
+	}
+
+	$myheader->set_header_image($choice);
 	
 $version = get_bloginfo('version');
 if ($version < 4.3)

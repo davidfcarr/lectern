@@ -1,12 +1,13 @@
 <?php
 /**
- /* Template Name: Full Width 
+ /* Template Name: Landing Page 
  *
- * The template for displaying full-width pages.
+ * The template for displaying full-width pages, no menu, larger fonts.
  *
  * @package Lectern
  */
-get_header(); ?>
+
+get_header('landing'); ?>
 
 	<div id="primary" class="full-width-content-area">
 	<?php do_action('full_width_top'); ?>

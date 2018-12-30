@@ -20,7 +20,6 @@
 
 <body <?php body_class(); ?>>
 <div id="page" class="hfeed site">
-<?php do_action('page_top'); ?>
 	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'lectern' ); ?></a>
 
 	<header id="masthead" class="site-header" role="banner">
@@ -30,11 +29,6 @@
 <h2 class="site-description"><?php bloginfo( 'description' ); ?></h2>
 </div><!-- .site-branding -->
 
-		<button class="menu-toggle" id="menu-toggle-on"><?php esc_html_e( 'Menu', 'lectern' ); ?></button>
-		<nav id="site-navigation" class="main-navigation" role="navigation">
-			<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu', 'fallback_cb' => 'wp_page_menu' ) ); ?>
-			<button class="menu-toggle" id="menu-toggle-off"><?php esc_html_e( 'Close Menu', 'lectern' ); ?></button>
-		</nav><!-- #site-navigation -->
 	</header><!-- #masthead -->
 
 	<div id="content" class="site-content">

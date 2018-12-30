@@ -12,7 +12,7 @@
  */
 function lectern_customize_register( $wp_customize ) {
 
-if(isset($_POST["banner"]))
+if(isset($_REQUEST["banner"]))
 	grab_tm_images ();
 
 class Lectern_Customize_Branding_Control extends WP_Customize_Control {
@@ -35,7 +35,9 @@ margin-bottom: 5px;
 $tm_images = get_tm_images();
 foreach($tm_images as $img => $url)
 {
-	printf('<div class="imgchoice"><input type="radio" name="banner" value="%s" > %s<br /><img src="%s" /></div>',$img,$img,$url);
+	//printf('<div class="imgchoice"><a href="%s" ><img src="%s" /></a></div>',admin_url("customize.php?banner=").$img,$url);
+	//printf('<div class="imgchoice"><input type="radio" name="banner" value="%s" > %s<div><img src="%s" /></div></div>',$img,$img,$url);
+	printf('<div class="imgchoice" style="background-image: url(%s); background-size: cover; background-repeat: no-repeat; width: %s; height: 50px; padding-left: 25px;"><input type="radio" name="banner" value="%s" ></div>',$url,'100%',$img);
 }
 ?>
 </label>
