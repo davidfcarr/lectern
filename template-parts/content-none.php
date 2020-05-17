@@ -15,6 +15,11 @@
 	</header><!-- .page-header -->
 
 	<div class="page-content">
+		<?php
+					if(strpos($_SERVER['REQUEST_URI'],'rsvpmaker-type')) {
+						printf('<p>%s <a href="%s">%s</a></p>',__('There may not be any upcoming events in this category posted, or there may be an error in the link you followed. See the ','lectern'),site_url('/rsvpmaker/'),__('complete event listings.','lectern'));
+					}
+		?>
 		<?php if ( is_home() && current_user_can( 'publish_posts' ) ) : ?>
 
 			<p><?php printf( wp_kses( __( 'Ready to publish your first post? <a href="%1$s">Get started here</a>.', 'lectern' ), array( 'a' => array( 'href' => array() ) ) ), esc_url( admin_url( 'post-new.php' ) ) ); ?></p>

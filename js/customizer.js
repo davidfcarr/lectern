@@ -41,9 +41,11 @@ $('.tm_banner_choice').on("click","img", function (e) {
  });
 */
 
-$(".tm_banner_choice img").click(function(){
-alert($(this).attr("src"));
+$(".banner").click(function(e){
+e.preventDefault();
+var choice = $(this).val();
+console.log('image choice '+choice);
+$('#banner_choice').val(choice);
 });
-
 
 } )( jQuery );

@@ -104,6 +104,85 @@ function lectern_setup() {
 		'default-color' => 'ffffff',
 		'default-image' => '',
 	) ) );
+
+	register_default_headers( array(
+		'toastmasters.jpg' => array(
+			'url'           => 'http://toastmost.org/tmbranding/toastmasters.jpg',
+			'thumbnail_url' => 'http://toastmost.org/tmbranding/toastmasters.jpg',
+			'description'   => 'Toastmasters toastmasters.jpg'
+		),
+	'toastmasters2.jpg' => array(
+			'url'           => 'http://toastmost.org/tmbranding/toastmasters2.jpg',
+			'thumbnail_url' => 'http://toastmost.org/tmbranding/toastmasters2.jpg',
+			'description'   => 'Toastmasters toastmasters2.jpg'
+		),
+	'toastmasters3.jpg' => array(
+			'url'           => 'http://toastmost.org/tmbranding/toastmasters3.jpg',
+			'thumbnail_url' => 'http://toastmost.org/tmbranding/toastmasters3.jpg',
+			'description'   => 'Toastmasters toastmasters3.jpg'
+		),
+	'toastmasters4.jpg' => array(
+			'url'           => 'http://toastmost.org/tmbranding/toastmasters4.jpg',
+			'thumbnail_url' => 'http://toastmost.org/tmbranding/toastmasters4.jpg',
+			'description'   => 'Toastmasters toastmasters4.jpg'
+		),
+	'toastmasters5.jpg' => array(
+			'url'           => 'http://toastmost.org/tmbranding/toastmasters5.jpg',
+			'thumbnail_url' => 'http://toastmost.org/tmbranding/toastmasters5.jpg',
+			'description'   => 'Toastmasters toastmasters5.jpg'
+		),
+	'toastmasters6.jpg' => array(
+			'url'           => 'http://toastmost.org/tmbranding/toastmasters6.jpg',
+			'thumbnail_url' => 'http://toastmost.org/tmbranding/toastmasters6.jpg',
+			'description'   => 'Toastmasters toastmasters6.jpg'
+		),
+	'toastmasters7.png' => array(
+			'url'           => 'http://toastmost.org/tmbranding/toastmasters7.png',
+			'thumbnail_url' => 'http://toastmost.org/tmbranding/toastmasters7.png',
+			'description'   => 'Toastmasters toastmasters7.png'
+		),
+	'toastmasters8.png' => array(
+			'url'           => 'http://toastmost.org/tmbranding/toastmasters8.png',
+			'thumbnail_url' => 'http://toastmost.org/tmbranding/toastmasters8.png',
+			'description'   => 'Toastmasters toastmasters8.png'
+		),
+	'toastmasters9.png' => array(
+			'url'           => 'http://toastmost.org/tmbranding/toastmasters9.png',
+			'thumbnail_url' => 'http://toastmost.org/tmbranding/toastmasters9.png',
+			'description'   => 'Toastmasters toastmasters9.png'
+		),
+	'toastmasters10.png' => array(
+			'url'           => 'http://toastmost.org/tmbranding/toastmasters10.png',
+			'thumbnail_url' => 'http://toastmost.org/tmbranding/toastmasters10.png',
+			'description'   => 'Toastmasters toastmasters10.png'
+		),
+	'toastmasters11.png' => array(
+			'url'           => 'http://toastmost.org/tmbranding/toastmasters11.png',
+			'thumbnail_url' => 'http://toastmost.org/tmbranding/toastmasters11.png',
+			'description'   => 'Toastmasters toastmasters11.png'
+		),
+	'toastmasters12.png' => array(
+			'url'           => 'http://toastmost.org/tmbranding/toastmasters12.png',
+			'thumbnail_url' => 'http://toastmost.org/tmbranding/toastmasters12.png',
+			'description'   => 'Toastmasters toastmasters12.png'
+		),
+	'toastmasters13.png' => array(
+			'url'           => 'http://toastmost.org/tmbranding/toastmasters13.png',
+			'thumbnail_url' => 'http://toastmost.org/tmbranding/toastmasters13.png',
+			'description'   => 'Toastmasters toastmasters13.png'
+		),
+	'toastmasters14.png' => array(
+			'url'           => 'http://toastmost.org/tmbranding/toastmasters14.png',
+			'thumbnail_url' => 'http://toastmost.org/tmbranding/toastmasters14.png',
+			'description'   => 'Toastmasters toastmasters14.png'
+		),
+	'toastmasters15.png' => array(
+			'url'           => 'http://toastmost.org/tmbranding/toastmasters15.png',
+			'thumbnail_url' => 'http://toastmost.org/tmbranding/toastmasters15.png',
+			'description'   => 'Toastmasters toastmasters15.png'
+		),
+) );
+
 }
 endif; // lectern_setup
 add_action( 'after_setup_theme', 'lectern_setup' );

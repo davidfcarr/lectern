@@ -65,11 +65,21 @@ function the_post_navigation() {
 }
 endif;
 
+function lectern_byline () {
+	$byline = sprintf(
+		esc_html_x( 'by %s', 'post author', 'lectern' ),
+		'<span class="author vcard"><a class="url fn n" href="' . esc_url( get_author_posts_url( get_the_author_meta( 'ID' ) ) ) . '">' . esc_html( get_the_author() ) . '</a></span>'
+	);
+
+	echo '<span class="byline"> ' . $byline . '</span>'; // WPCS: XSS OK.
+}
+
 if ( ! function_exists( 'lectern_posted_on' ) ) :
 /**
  * Prints HTML with meta information for the current post-date/time and author.
  */
 function lectern_posted_on() {
+
 	$time_string = '<time class="entry-date published updated" datetime="%1$s">%2$s</time>';
 	if ( date('Y-m-d',get_the_time( 'U' )) !== date('Y-m-d',get_the_modified_time( 'U' )) ) {
 		// if updated more than a day later ...
@@ -87,14 +97,7 @@ function lectern_posted_on() {
 		esc_html_x( 'Posted on %s', 'post date', 'lectern' ),
 		'<a href="' . esc_url( get_permalink() ) . '" rel="bookmark">' . $time_string . '</a>'
 	);
-
-	$byline = sprintf(
-		esc_html_x( 'by %s', 'post author', 'lectern' ),
-		'<span class="author vcard"><a class="url fn n" href="' . esc_url( get_author_posts_url( get_the_author_meta( 'ID' ) ) ) . '">' . esc_html( get_the_author() ) . '</a></span>'
-	);
-
-	echo '<span class="posted-on">' . $posted_on . '</span><span class="byline"> ' . $byline . '</span>'; // WPCS: XSS OK.
-
+	echo '<span class="posted-on">' . $posted_on . '</span>';
 }
 endif;
 
@@ -104,7 +107,9 @@ if ( ! function_exists( 'lectern_entry_footer' ) ) :
  */
 function lectern_entry_footer() {
 	// Hide category and tag text for pages.
+
 	if ( 'post' == get_post_type() ) {
+	
 		/* translators: used between list items, there is a space after the comma */
 		$categories_list = get_the_category_list( esc_html__( ', ', 'lectern' ) );
 		if ( $categories_list && lectern_categorized_blog() ) {

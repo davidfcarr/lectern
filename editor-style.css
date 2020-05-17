@@ -765,3 +765,13 @@ font-family:"open sans",sans-serif,arial;
 blockquote {
 font-size: 18px;
 }
+figcaption,
+.wp-caption-text {
+	color: #6d6d6d;
+	display: block;
+	font-size: small;
+	font-weight: 500;
+	line-height: 1.2;
+	margin-top: 1.5rem;
+	margin-left: 2rem;
+}

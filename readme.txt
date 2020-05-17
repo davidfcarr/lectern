@@ -4,8 +4,8 @@ Contributors: davidfcarr, automattic
 Tags: translation-ready, custom-background, theme-options, custom-menu, post-formats, threaded-comments
 
 Requires at least: 4.0
-Tested up to: 5.0.2
-Stable tag: 1.1.4
+Tested up to: 5.4.1
+Stable tag: 1.1.7
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -27,10 +27,19 @@ While Lectern can be used for any purpose, it was designed as an easy-to-install
 = Does this theme support any plugins? =
 
 * Lectern works well with RSVPMaker and RSVPMaker for Toastmasters.
-
 * Lectern includes support for Infinite Scroll in Jetpack.
 
 == Changelog ==
+
+= 1.1.7 =
+
+* Update to handling of banner images.
+* Changed language of disclaimer that appears when Toastmasters branding is used.
+
+= 1.1.6 =
+
+* More standard handling of header images.
+* Better separation between where one post ends and the next begins in a blog listing.
 
 = 1.1.4 =
 

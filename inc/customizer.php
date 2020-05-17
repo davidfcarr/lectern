@@ -12,39 +12,20 @@
  */
 function lectern_customize_register( $wp_customize ) {
 
-if(isset($_REQUEST["banner"]))
-	grab_tm_images ();
-
 class Lectern_Customize_Branding_Control extends WP_Customize_Control {
-    public $type = 'radio';
+    public $type = 'banner_choice';
 
     public function render_content() {
-
         ?>
-<style>
-.imgchoice {
-border: thin dotted red;
-margin-bottom: 5px;
-}
-</style>
-<p><?php _e('Use this control to add a Toastmasters-branded banner image to include in the site header. (To add any other image, use the Header Image customizer control).','lectern'); ?></p>
-        <label id="tm_banner_choices">
-        <span class="customize-control-title"><?php echo esc_html( $this->label ); ?></span>
-<form action="<?php echo admin_url('customize.php'); ?>" method="post">
-<?php
-$tm_images = get_tm_images();
-foreach($tm_images as $img => $url)
-{
-	//printf('<div class="imgchoice"><a href="%s" ><img src="%s" /></a></div>',admin_url("customize.php?banner=").$img,$url);
-	//printf('<div class="imgchoice"><input type="radio" name="banner" value="%s" > %s<div><img src="%s" /></div></div>',$img,$img,$url);
-	printf('<div class="imgchoice" style="background-image: url(%s); background-size: cover; background-repeat: no-repeat; width: %s; height: 50px; padding-left: 25px;"><input type="radio" name="banner" value="%s" ></div>',$url,'100%',$img);
-}
-?>
-</label>
-<button><?php _e('Get Banner','lectern'); ?></button>
-</form>
-<p><?php _e('If you are running WordPress 4.3 or higher, this control will also attempt to add the Toastmasters logo as the site icon. The site icon can also be modified with the Site Identity customizer control.','lectern'); ?></p>
-        <?php
+<p>A series of standard Toastmasters-branded banners for the top of the page are loaded into the <strong>Header Image</strong> panel below for use by clubs and districts.</p>
+<p>When you add one of these banners (or any image with the word "toastmasters" in the file name), Lectern automatically adds the disclaimers required by Toastmasters International to the page footer.</p><p>In addition, the Toastmasters logo will also be set as the <strong>Site Icon</strong> displayed in browser tabs.</p>
+    <?php
+    if(strpos($_SERVER['SERVER_NAME'],'oastmost.org'))
+        return;
+    echo '<p>Click on one of the images shown below to download a copy of the banner to your own server. Otherwise, the images will be served from toastmost.org. The new header will be installed on your site, but the preview will not automatically refresh.</p>';
+    $images = get_tm_images();
+    foreach($images as $basename => $url)
+        printf('<p><a class="tmbanner" basename="%s" ><img src="%s"></a></p>',$basename,$url,$basename);
     }
 }
 
@@ -76,9 +57,14 @@ add_action( 'customize_register', 'lectern_customize_register' );
  */
 function lectern_customize_preview_js() {
 	wp_enqueue_script( 'lectern_customizer', get_template_directory_uri() . '/js/customizer.js', array( 'customize-preview' ), '20130508', true );
-
 }
 add_action( 'customize_preview_init', 'lectern_customize_preview_js' );
+
+function lectern_customize_control_js() {
+	wp_enqueue_script( 'lectern_customizer_control', get_template_directory_uri() . '/js/customizer_control.js', array( 'customize-preview' ), time(), true );
+}
+
+add_action( 'customize_controls_enqueue_scripts', 'lectern_customize_control_js' );
 
 function sanitize_branding ($setting) {
 	if(!strpos($setting,'wp4toastmasters') ) // only accept urls from recognized source
